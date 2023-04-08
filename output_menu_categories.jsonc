@@ -1,0 +1,73 @@
+// ---- CASE 1
+{
+    "1": {
+        "name": "Premium Sandwiches", 
+        "items": [
+            {"id": 3, "name": "Beacon Burger", "price": 6.8, "vegetarian": "False", "parent": 1}, 
+            {"id": 4, "name": "Cheese Burger", "price": 5.6, "vegetarian": "False", "parent": 1}, 
+            {"id": 10, "name": "Veggie Cheese Burger", "price": 7.8, "vegetarian": "True", "parent": 1}
+        ]
+    }, 
+    "5": {
+        "name": "Main Dishes", 
+        "items": [
+            {"id": 2, "name": "Seafood Soup", "price": 12.0, "vegetarian": "False", "parent": 5}, 
+            {"id": 6, "name": "Big Potato & Avocado Salad", "price": 11.0, "vegetarian": "True", "parent": 5}
+        ]
+    }, 
+    "9": {
+        "name": "Drinks", 
+        "items": [
+            {"id": 7, "name": "Coca Cola Zero", "price": 2.5, "vegetarian": "False", "parent": 9}, 
+            {"id": 8, "name": "Apple Juice", "price": 3.5, "vegetarian": "True", "parent": 9}
+        ]
+    }
+}
+
+// ---- CASE 2
+{
+    "1": {
+        "name": "Chinese Food", 
+        "items": [
+            {"id": 9, "name": "Pork Chaufan Rice", "price": 4.6, "vegetarian": "False", "parent": 1}, 
+            {"id": 10, "name": "Vegetables Chapsui", "price": 4.0, "vegetarian": "True", "parent": 1}
+        ]
+    }, 
+    "2": {
+        "name": "Thai Food", 
+        "items": [
+            {"id": 7, "name": "Coconut Spicy Rice", "price": 5.5, "vegetarian": "False", "parent": 2}, 
+            {"id": 8, "name": "Milky Spicy Noodles", "price": 5.5, "vegetarian": "False", "parent": 2}
+        ]
+    }, 
+    "3": {
+        "name": "Chilean Food", 
+        "items": [
+            {"id": 4, "name": "Paila Marina", "price": 12.6, "vegetarian": "False", "parent": 3}, 
+            {"id": 5, "name": "Carbonada", "price": 8.8, "vegetarian": "False", "parent": 3}, 
+            {"id": 6, "name": "Curanto en Hoyo", "price": 18.0, "vegetarian": "False", "parent": 3}
+        ]
+    }
+}
+
+// ---- CASE 3
+{
+    "5": {
+        "name": "Natural Bio Drinks", 
+        "items": [
+            {"id": 1, "name": "Green Detox", "price": 3.3, "vegetarian": "True", "parent": 5}, 
+            {"id": 2, "name": "Orange - Apple - Banana", "price": 3.0, "vegetarian": "True", "parent": 5}, 
+            {"id": 3, "name": "Citric Fresh", "price": 3.0, "vegetarian": "True", "parent": 5}, 
+            {"id": 4, "name": "Red Apple Punch", "price": 3.3, "vegetarian": "True", "parent": 5}
+        ]
+    }, 
+    "10": {
+        "name": "Sweet Drinks", 
+        "items": [
+            {"id": 6, "name": "Banana Milkshake", "price": 3.8, "vegetarian": "False", "parent": 10}, 
+            {"id": 7, "name": "Coconut - Custard Apple - Milk", "price": 4.0, "vegetarian": "False", "parent": 10}, 
+            {"id": 8, "name": "Strawberry Milkshake w/cream", "price": 4.5, "vegetarian": "False", "parent": 10}, 
+            {"id": 9, "name": "Hot Chocolate w/milk", "price": 4.0, "vegetarian": "False", "parent": 10}
+        ]
+    }
+}
